@@ -50,9 +50,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Varapp'
-copyright = '2016, SIB/Vital-IT & CHUV'
-author = 'Julien Delafontaine'
+project = 'MsViz'
+copyright = '2016, SIB/Vital-IT & UNIL/PAF'
+author = 'Trinidad Martin & Roman Mylonas'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

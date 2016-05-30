@@ -2,6 +2,6 @@
 Contact
 =======
 
-Send comments, suggestions and bug reports to `julien.delafontaine@sib.swiss <julien.delafontaine@sib.swiss>`_
+Send comments, suggestions and bug reports to `roman.mylonas@sib.swiss <roman.mylonas@sib.swiss>`_
 
 

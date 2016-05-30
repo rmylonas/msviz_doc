@@ -6,7 +6,7 @@
 Users' manual
 =============
 
-.. figure:: /images/main-annot.png
+.. figure:: /images/msviz_searches.png
    :width:  100%
    :alt: Main window
 

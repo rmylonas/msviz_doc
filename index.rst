@@ -15,8 +15,6 @@ Contents
    :maxdepth: 1
 
    src/about
-   src/method
-   src/deployment
    src/usage
    src/acknowledgements
    src/contact

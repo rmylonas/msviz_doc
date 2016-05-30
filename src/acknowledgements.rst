@@ -2,10 +2,9 @@
 Credits
 -------
 
-**Developer**: Julien Delafontaine
+**Developer**: Trinidad Martin & Roman Mylonas
 
-**Supervision & project design**: Sylvain Pradervand, Ioannis Xenarios
+**Supervision**: Ioannis Xenarios
 
-**Technical advisors**: Alexandre Masselot, Robin Liechti, Dmitri Kuznetsov
+**Advisors**: Manfredo Quadroni, Patrice Waridel, Alexandre Masselot
 
-**Beta-testers**: Norine Voisin, Lucie Gueneau, Katrin Mannik, Berit Kolk
