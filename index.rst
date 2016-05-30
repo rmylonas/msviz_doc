@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Varapp's documentation!
+Welcome to MsViz documentation!
 ==================================
 
-Updated last: 24th May 2016
+Updated last: 30th May 2016
 
 Contents
 ''''''''
