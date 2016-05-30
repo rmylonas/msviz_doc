@@ -10,47 +10,44 @@ Users' manual
    :width:  100%
    :alt: Main window
 
-1.  Header section: database selection and account management.
-2.  Samples selection summary. It shows the total number of selected samples.
-    Clicking it brings to the :ref:`samples-selection` window.
-3.  Filters panel: apply filters on the collection of variants (see below).
-4.  Variants table: displays all variants passing the selected filters (see below).
+1.  :ref:`searches`: investigate or delete existing data.
+2.  :ref:`uploads`: upload new datasets or databases.
+3.  Result basket: look at data you added to your result basket.
 
 
-.. _filters-panel:
+.. _searches:
 
-Filters panel
+Searches
 -------------
 
-.. container:: twocol
+Select searches
+.................
 
-    .. container:: leftside
+Select the checkboxes of the *SearcheIds* you want to compare. Click on the *Compare* button to see all the proteins identified in the selected searches.
 
-        A)  **Number of filtered variants** / total number of variants in the db.
-        B)  **Reset filters** button.
-        C)  **Location filter**. Supports chromosome coordinates such as 'chr1:100-200' and gene names.
-            Multiple values can be entered, separated by commas. In this case, the query will return
-            all variants in the *union* of all the regions.
-        D)  **Filters**, grouped by categories. Click one category to unfold.
-            Numbers in front of a filter show how many variants in the current selection
-            would pass this filter. Sliders can be switched to text input with the small button on their right
-            to enter more precise values if necessary.
-        E)  **Filters summary**: shows the selected filters in a category even when the
-            panel is closed. Click on the cross right to an item to quickly remove the filter.
+Select protein
+...............
 
-    .. container:: rightside
+.. figure:: /images/msviz_proteins.png
+   :width:  100%
+   :alt: Select proteins
 
-        .. figure:: /images/filters-panel-annot.png
-           :scale: 70%
+1. The order of the searches can be re-arranged by simple drag-and-drop. This feature is useful to group together searches which share the same experimental condition. 
 
-.. container:: clear
+2. You can filter the list of proteins by choosing a post translational modification (PTM) of interest. Only the proteins containing this PTM will be kept.
 
-    |nbsp|
+3. Select the protein of interest to look at the Protein coverage.
 
+.. _protein_coverage
 
-.. _variants-table:
+Protein coverage view
+......................
 
-Variants table
+hiho
+
+.. _uploads:
+
+Uploads
 --------------
 
 .. figure:: /images/variants-table-annot.png
