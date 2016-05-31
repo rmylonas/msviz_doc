@@ -13,7 +13,7 @@ What is MsViz ?
 * MsViz integrates MS1,MS2 information and identification results in one visual platform.
 * MsViz greatly facilitates manual validation and quantitation of PTMs on specific proteins => significant gains of time for the data analyst.
 * MsViz’s GUI is very intuitive and the tool is easy to learn and use 
-* MSviZ is *NOT* for large scale work nor automated workflows !
+* MSviZ is **NOT** for large scale work nor automated workflows !
 
 
 Motivation

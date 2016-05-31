@@ -2,7 +2,7 @@
 Credits
 -------
 
-**Developer**: Trinidad Martin & Roman Mylonas
+**Developers**: Trinidad Martin & Roman Mylonas
 
 **Supervision**: Ioannis Xenarios
 
