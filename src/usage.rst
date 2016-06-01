@@ -12,7 +12,7 @@ Users' manual
 
 1.  :ref:`searches`: compare or delete existing data.
 2.  :ref:`uploads`: upload new datasets or databases.
-3.  Result basket: look at data you added to your result basket.
+3.  :ref:`resultBasket`: look at data you added to your result basket.
 
 
 .. _searches:
@@ -90,8 +90,93 @@ On the PSM's you can see the selected PTM's represented by circles:
 
 - Other modifications then the selected one are shown as black bars.
 
+By clicking on any of the PSM's you open a :ref:`detail view <detail_view>` to the corresponding :ref:`fragmentation spectrum <spectrum_details>` and :ref:`XIC's <xic_view>`. 
 
 
-By clicking on any of the PSM's you open a view to the corresponding spectrum and XIC's. 
+.. _detail_view:
+
+Visualization of spectra and XIC's
+....................................
+
+.. figure:: /images/msviz_details.png
+   :width:  100%
+   :alt: spectra and XIC details
+
+By clicking on an PSM (gray lines) you open a view to the corresponding :ref:`annotated fragmentation spectrum <spectrum_details>` and :ref:`XIC's <xic_view>`. This allows to easily verify the quality of the match and quantify the corresponding MS1 signals. 
+
+1. :ref:`spectrum_details`: The annotated fragmentation spectrum helps you to verfiy the quality of the match.
+
+2. :ref:`xic_view`: 
+
+.. _spectrum_details:
+
+Annotated fragmentation spectrum
+..................................
+
+.. figure:: /images/msviz_spectrum.png
+   :width:  100%
+   :alt: spectrum details
+
+
+.. _xic_view:
+
+Extracted Ion Chromatogram (XIC)
+.................................
+
+.. figure:: /images/msviz_xic.png
+   :width:  100%
+   :alt: spectrum details
+
+
+.. _uploads:
+
+Uploads
+-------------
+
+Upload results
+.................
+
+.. figure:: /images/msviz_uploadResults.png
+   :width:  100%
+   :alt: Upload results
+
+The types of data accepted by MsViz are either Mascot or MaxQuant results.
+
+Select the file to upload. It will be a .zip file containing:
+
+- Mascot: All the .MzML files used for MS1 and MS2 acquisition and .mzid file with identification results.
+
+- MaxQuant: All the .MzML files used for MS1 and MS2 acquisition and the folder called /txt with identification results.
+
+By clicking the button Upload your file will be loaded on MsViz.
+
+
+Upload database
+.................
+
+.. figure:: /images/msviz_uploadDatabase.png
+   :width:  100%
+   :alt: Upload database
+
+The database accepted by MsViz has to be a .fasta file.
+
+By clicking the button Upload your file will be loaded on MsViz.
+
+You can see a list of the databases you already loaded.
+
+.. _resultBasket:
+
+Result Basket
+-------------
+
+.. figure:: /images/msviz_resultsBasketBoth.png
+   :width:  100%
+   :alt: Results basket
+
+By clicking on any of the results in the list you open a view to the selected one.
+
+You can remove your results or you can export them into a .csv containing the protein AC, the peptide, scan number, retention time, m/z, charge, score and intensity for all your samples. 
+
+
 
 
