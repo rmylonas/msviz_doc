@@ -205,7 +205,7 @@ Result Basket
 
 By clicking on any of the results in the list you open a view to the selected one.
 
-You can remove your results or you can export them into a *.csv* containing the protein AC, the peptide, scan number, retention time, m/z, charge, score and intensity for all your samples. 
+You can remove your results or you can export them into a *.csv* containing the protein AC, the peptide, scan number, retention time, m/z, charge, score, localization score and intensity for all your samples. 
 
 
 
